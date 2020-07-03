@@ -1,5 +1,6 @@
 def square_array(numbers)
-  
-  numbers.each {|num| new_array.push(#{num} ** 2)}
-  new_array
+  count=0
+  numbers.each do |num|
+    new_array.push(#{num} ** 2)}
+ 
 end
