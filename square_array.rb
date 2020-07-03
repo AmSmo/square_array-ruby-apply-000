@@ -4,5 +4,5 @@ def square_array(numbers)
   #   new_array.push(num ** 2)
   # end
   # new_array
-  numbers.collect
+  numbers.collect {|num| num*num}
 end
